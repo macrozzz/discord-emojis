@@ -8,7 +8,7 @@ let totalEmojiPages = 1;
 // Function to fetch emoji data from URL
 async function fetchEmojiData() {
   try {
-    const response = await fetch('https://macrozzz.github.io/discord-emojis/emojis.json');
+    const response = await fetch('https://johnmef.github.io/disv/emojis.json');
     if (!response.ok) {
       throw new Error('Network response was not ok');
     }
